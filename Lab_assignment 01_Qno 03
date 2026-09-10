@@ -4,14 +4,14 @@ int main(){
     int distance;
     printf("Enter distance\n");
     scanf("%d",&distance);
-    printf("distance in Kilometer:%d\n",distance);
+    printf("distance in Km:%d\n",distance);
 
-    int distance_meter;
-    distance_meter=distance*1000;
-    printf("distance in meter:%d\n",distance_meter);
+    int distance_m;
+    distance_m=distance*1000;
+    printf("distance in m:%d\n",distance_m);
 
-    int distance_centimeter;
-    distance_centimeter=distance_meter*100;
-    printf("distance in centimeter:%d\n",distance_centimeter);
+    int distance_cm;
+    distance_cm=distance_m*100;
+    printf("distance in cm:%d\n",distance_cm);
     return 0;
 }
