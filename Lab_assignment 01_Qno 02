@@ -14,7 +14,7 @@ int main(){
     scanf("%d",&age);
     
     printf("Enter depart\n");
-    scanf("%s",department);
+    scanf("%s",depart);
     
     printf("Enter student_id\n");
     scanf("%s",student_id);
